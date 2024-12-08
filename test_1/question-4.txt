@@ -1,0 +1,3 @@
+/** Can you explain about Interface and Enum, and where will you be using, please make some examples. **/
+Interface 可以用來定義物件的結構或行為，可以 extend，沒有具體的值。可用於定義類別或函數參數的規範，如 API 回傳值的結構。
+Enum 可用來定義固定的常數集合，不能 extend，有具體的值，可以是數字或字串。可用於定義固定的狀態的常數集合，如定義用戶角色（User, Admin, Guest）。
