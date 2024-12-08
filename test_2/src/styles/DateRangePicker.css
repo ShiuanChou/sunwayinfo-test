@@ -1,0 +1,72 @@
+.date-range-picker {
+	width: 350px;
+	height: 240px;
+	font-size: 16px;
+}
+
+.header {
+	width: 350px;
+	height: 44px;
+	margin-bottom: 16px;
+	text-align: center;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.month-select {
+	width: 44px;
+	height: 44px;
+	background-color: white;
+	border: none;
+	cursor: not-allowed;
+}
+
+.month-select:hover {
+	background-color: #e6e6e6;
+}
+
+.days-grid {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 4px;
+}
+
+.day-button {
+	width: 50px;
+	height: 36px;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.day-button.today {
+	background-color: #ffff76;
+}
+
+.day-button.in-range {
+	background-color: #006edc;
+	color: white;
+}
+
+.day-button.start-date {
+	background-color: #006edc;
+	color: white;
+}
+
+.day-button.end-date {
+	background-color: #ff5722;
+	color: white;
+}
+
+.day-button:hover {
+	background-color: #e6e6e6;
+}
+
+.empty-day {
+	width: 50px;
+	height: 36px;
+	visibility: hidden;
+}

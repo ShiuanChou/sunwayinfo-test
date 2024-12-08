@@ -1,10 +1,10 @@
-import './App.css';
+import './styles/App.css';
+import DateRangePicker from './components/DateRangePicker';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Hello React.</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <DateRangePicker />
     </div>
   );
 }
