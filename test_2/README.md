@@ -11,6 +11,7 @@
 打開瀏覽器訪問：http://localhost:3000
 
 ## 文件結構
+```
 src/
 ├── components/
 │   └── DateRangePicker.js  # 日期範圍選擇元件
@@ -20,3 +21,4 @@ src/
 │   └── index.css # 應用入口樣式
 ├── App.js                  # 主應用
 └── index.js                # 應用入口文件
+```
